@@ -1,0 +1,144 @@
+body {
+    background-color: #000;
+}
+
+header{
+    height: 832px;
+    background: url('/asset/img/sliderimgkv.png') rgba(0, 0, 0, 0.7);
+}
+
+.bg-opacity {
+    width: 100%;
+    height: 832px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+
+
+
+
+.search-box {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 999px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.search-box input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    
+}
+
+.search-box input::placeholder {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.search-box input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.btn-search {
+    border: none;
+    background-color: transparent;
+}
+
+.btn-fighter {
+    display: inline-block;
+    width: 90%;
+    padding:  10px 20px;
+    background-color: #0bc4e2;
+    border-radius: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.btn-fighter:hover {
+    box-shadow: 0 0 6px #0bc4e2;
+    color: white;
+}
+
+.border-cross {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 120px solid #212529;
+    border-right: 36px solid transparent;
+    z-index: 10;
+}
+
+.wth {
+    background: radial-gradient(55% 180% at 5% 100%,#0bc4e233 0,rgba(10,10,10,0) 75%,rgba(10,10,10,0) 100%);
+}
+
+.job-item1::after {
+    content: "";
+    width: 0;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    right: calc((var(--bs-gutter-x) * -0.5));
+    transform: translateX(200px);
+    border-top: 600px solid rgb(255, 255, 255);
+    border-right: 200px solid transparent;
+    z-index: 10000;
+}
+
+.job-item__work button {
+    min-width: 130px;
+}
+
+
+.job-item__img {
+    max-height: 600px;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+}
+
+.contact {
+    padding: 0;
+    list-style: none;
+}
+
+.contact li a {
+    color: rgb(169, 168, 168);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-favicon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-favicon a {
+    display: inline-block;
+}
+
+.contact-favicon a i {
+    color: rgb(169, 168, 168);
+    font-size: 1.2rem;
+}
+
+.bg-contact {
+    background-color: #252423;
+}
+
